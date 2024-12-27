@@ -81,3 +81,8 @@ Use Cases	                    General tasks: classification, regression	        
 
 
 list(data_dir.glob('*/*.jpg'))[:5] //includes all files with .jpg format (search in the data_dir
+
+
+
+#Check this link for project ideas
+https://github.com/dhruvbhatia563/
