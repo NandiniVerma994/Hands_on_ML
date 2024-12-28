@@ -86,3 +86,33 @@ list(data_dir.glob('*/*.jpg'))[:5] //includes all files with .jpg format (search
 
 #Check this link for project ideas
 https://github.com/dhruvbhatia563/
+
+
+# Natural Language Processing
+ nlp = spacy.blank("en")
+spacy.blank("en"): Creates a blank pipeline for English.
+A blank pipeline means the nlp object does not have any pre-trained models.
+
+doc = nlp("Dr. Strange loves pav bhaji of mumbai as it costs only 2$ per plate.")
+nlp(...) processes the given string and creates a Doc object.
+
+
+Count Vectorizer
+from sklearn.feature_extraction.text import CountVectorizer
+documents = [
+    "I love programming in Python",
+    "Python programming is fun",
+    "I love learning machine learning"
+]
+vectorizer = CountVectorizer()
+X = vectorizer.fit_transform(documents)
+print(X.toarray())
+print(vectorizer.get_feature_names_out())
+
+
+OUTPUT:
+[[0 1 1 1 1 0 1]
+ [0 1 1 0 1 1 1]
+ [1 0 1 1 0 1 1]]
+
+['learning' 'love' 'machine' 'programming' 'python' 'is' 'fun']
