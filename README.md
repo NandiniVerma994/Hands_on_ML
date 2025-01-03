@@ -5,6 +5,8 @@ https://cuddly-adventure-wr7qv44pqg4g25pxw.github.dev/
 
 [https://github.com/codebasics/nlp-tutorials/blob/main/1_regex/regex_for_information_extraction.ipynb](https://github.com/codebasics/nlp-tutorials/tree/main)
 
+https://chatgpt.com/share/67776023-fc90-800d-b46d-636e5fc5cb0d
+
 # Machine Learning
 
 # To remember
