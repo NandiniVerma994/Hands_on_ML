@@ -8,6 +8,11 @@ https://cuddly-adventure-wr7qv44pqg4g25pxw.github.dev/
 https://chatgpt.com/share/67776023-fc90-800d-b46d-636e5fc5cb0d
 
 # Machine Learning
+Cost function -> tells difference between predicted value and actual value.
+Gradient descent -> algo to minimise the cost function by repeating untill convergence
+Should not aim to make the cost function 0 also coz then it will cause overfitting and any new data points added will now overfit the model . For this we use ridge or lasso regression. Making the slope steeper
+
+Check for cross validation from 38 playlist
 
 # To remember
 
@@ -17,7 +22,11 @@ if the dataset is [1,2,3,4,5,6,7,8,9] and n_splits=3
 means the dataset is divided into 3 equal folds which is Total elements/n_splits = 9/3 that is 3
 In the first iteration, the first 3 elements are the test set, and the rest are the training set.
 In the second iteration, the next 3 elements are the test set, and the rest are the training set.
-In the third iteration, the last 3 elements are the test set, and the rest are the training set.
+In the third iteration, the last 3 elements are the test set, and the rest are the training set
+
+
+
+
 
 
 # KFold and StratifiedKFold
