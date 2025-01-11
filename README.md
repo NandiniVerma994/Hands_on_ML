@@ -53,6 +53,8 @@ Y-axis: A metric that measures clustering performance, commonly the within-clust
 dataset.data[0].reshape(8,8)// reshapes 1D array into 2D array
 
 
+In Xgboost first we will calculate gain for all the cateogaries then try splitting. In the case we considered that salary is having the largest gain.
+
 # Deep Learning
 
 ### **Convolutional Layers (`Conv2D`)**:
