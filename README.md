@@ -7,6 +7,8 @@ https://cuddly-adventure-wr7qv44pqg4g25pxw.github.dev/
 
 https://chatgpt.com/share/67776023-fc90-800d-b46d-636e5fc5cb0d
 
+https://chatgpt.com/share/67ab9160-a8d8-8007-84ca-4a8a82179345
+
 # Machine Learning
 Cost function -> tells difference between predicted value and actual value.
 Gradient descent -> algo to minimise the cost function by repeating untill convergence
